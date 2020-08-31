@@ -36,7 +36,7 @@
     This script backups the contents of a target folder on a remote system over SMB Admin share.    
 
 .REQUIREMENTS 
-    SMB/Admin share must be enabled on target devices... Invoke-Command(WinRM) can be used if SMB Admin share is not available
+    SMB C:\ Admin share must be enabled on target devices
     Script runner must have sufficient permissions for remote access to the target devices via SMB Admin Share
     PS 3.0 or greater
     PS ExcutionPolicy must be configured to allow the script to run
